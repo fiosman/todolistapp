@@ -99,4 +99,4 @@ window.onLoad = function () {
 
 window.onLoad();
 
-const cardTitle = document.querySelector('.card-title')
+
