@@ -4,13 +4,13 @@ This is a simple To-Do List written in pure JavaScript. The application is fully
 
 ## Technologies Used 
 
-CSS (Materialize framework)
-HTML
-JavaScript (jQuery CDN included for Materialize)
+* CSS (Materialize framework)
+* HTML
+* JavaScript (jQuery CDN included for Materialize)
 
 ## Contributors
 
-Fares Osman (fares.osman@outlook.com)
+* Fares Osman (fares.osman@outlook.com)
 
 ## License
 
