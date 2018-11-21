@@ -39,7 +39,7 @@ function removeTask(e) {
     if (e.target.classList.contains('fa')) {
         const listElement = e.target.parentElement.parentElement
         listElement.remove()
-        for (i = 0; i < tasks.length; i++) {
+        for (let i = 0; i < tasks.length; i++) {
             if (listElement.textContent == tasks[i]) {
                 tasks.splice(i, 1)
             }
@@ -96,5 +96,3 @@ window.onLoad = function () {
 }
 
 window.onLoad();
-
-
