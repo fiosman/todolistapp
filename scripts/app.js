@@ -1,4 +1,5 @@
 //select DOM elements and array declarations
+const taskList = document.querySelector('.collection');
 const clearBtn = document.querySelector('.clear-tasks');
 const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
@@ -96,3 +97,5 @@ window.onLoad = function () {
 }
 
 window.onLoad();
+
+
