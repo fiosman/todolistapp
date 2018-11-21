@@ -1,16 +1,18 @@
 # To-Do List (Pure JS)
 
-This is a simple To-Do List written in pure JavaScript. The application is fully responsive, and features user's saved tasks to persist in [local storage](https:https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
+This is a simple to-do list application written in pure JavaScript. It is fully responsive, and features user's saved tasks to persist in [local storage](https:https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 
 ## Technologies Used 
 
 * CSS (Materialize framework)
+* Font Awesome (For icons)
 * HTML
-* JavaScript (jQuery CDN included for Materialize)
+* jQuery (CDN included - necessary for Materialize)
+* JavaScript
 
 ## Contributors
 
-* Fares Osman (fares.osman@outlook.com)
+Fares Osman (fares.osman@outlook.com)
 
 ## License
 
