@@ -1,12 +1,12 @@
 //select DOM elements and array declarations
-const taskList = document.querySelector('.collection');
-const clearBtn = document.querySelector('.clear-tasks');
-const filter = document.querySelector('#filter');
-const taskInput = document.querySelector('#task');
-const submitBtn = document.querySelector('.btn')
-const saveBtn = document.querySelector('.save-tasks')
-let tasks = []
-let savedTasks;
+const taskList = document.querySelector('.collection'),
+      clearBtn = document.querySelector('.clear-tasks'),
+      filter = document.querySelector('#filter'),
+      taskInput = document.querySelector('#task'),
+      submitBtn = document.querySelector('.btn'),
+      saveBtn = document.querySelector('.save-tasks');
+let tasks = [],
+    savedTasks;
 
 //IIFE to fire up all event listeners on page load
 (function init() {
@@ -20,9 +20,9 @@ let savedTasks;
 //Add task input to list
 function submitTask(e) {
     if (taskInput.value) {
-        const list = document.createElement('li');
-        const inputValue = document.createTextNode(taskInput.value)
-        const link = document.createElement('a')
+        const list = document.createElement('li'),
+              inputValue = document.createTextNode(taskInput.value),
+              link = document.createElement('a');
         list.className = 'collection-item';
         link.className = 'delete-item secondary-content';
         link.innerHTML = '<i class="fa fa-trash"></i>'
@@ -81,9 +81,9 @@ window.onLoad = function () {
     if (savedTasks) {
         tasks = savedTasks
         tasks.forEach(function (item) {
-            const list = document.createElement('li');
-            const inputValue = document.createTextNode(item)
-            const link = document.createElement('a')
+            const list = document.createElement('li'),
+                  inputValue = document.createTextNode(item),
+                  link = document.createElement('a');
             list.className = 'collection-item';
             link.className = 'delete-item secondary-content';
             link.innerHTML = '<i class="fa fa-trash"></i>'
@@ -97,5 +97,3 @@ window.onLoad = function () {
 }
 
 window.onLoad();
-
-
