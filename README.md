@@ -1,6 +1,6 @@
 # To-Do List (Pure JS)
 
-This is a simple To-Do List written in pure JavaScript. The application is fully responsive, and allows the user's saved tasks to persist in [local storage](https:https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) 
+This is a simple To-Do List written in pure JavaScript. The application is fully responsive, and features user's saved tasks to persist in [local storage](https:https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 
 ## Technologies Used 
 
